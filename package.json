@@ -4,8 +4,8 @@
   "description": "Backend API untuk Platform Donasi DariKita - UPNVJ",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node api/app.js",
+    "dev": "nodemon api/app.js",
     "seed": "node seeders/seed.js"
   },
   "keywords": [
